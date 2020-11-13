@@ -1,0 +1,19 @@
+multiply = ("*")
+divide = ("/")
+subtract = ("-")
+add = ("+")
+
+num1 = float(input("Enter a Number:"))
+op = input("Enter  a operator:")
+num2 = float(input("Enter a Number:"))
+
+if op == "add":
+    print(num1 + num2)
+elif op == "subtract":
+    print(num1 - num2)
+elif op == "multiply":
+    print(num1 * num2)
+elif op == "divide":
+    print(num1 / num2)
+else:
+    print("Invalid operater")
